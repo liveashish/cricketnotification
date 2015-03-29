@@ -3,8 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import pynotify
 import re
-from time import 
-
+from time import sleep
 SLEEP_INTERVAL = 60
 
 def getResponceFromURL(url):
